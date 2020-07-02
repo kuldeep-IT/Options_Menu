@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group
+        android:id="@+id/menu_top"
+        android:checkableBehavior="single"
+        >
+    <item
+        android:id="@+id/setting"
+        android:title="Setting"
+        android:icon="@drawable/ic_arrow_drop_down_circle_black_24dp"
+        app:showAsAction="ifRoom"
+        />
+    </group>
+
+
+
+    <item
+        android:id="@+id/privacy"
+        android:title="Privacy"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/bc"
+        android:title="Broad Cast"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/msg"
+        android:title="Starred Message"
+        app:showAsAction="never">
+
+        <menu>
+
+            <item
+                android:id="@+id/sub1"
+                android:title="Sub Menu"
+                />
+            <item
+                android:id="@+id/sub2"
+                android:title="Sub Menu2"
+                />
+
+
+        </menu>
+
+    </item>
+
+
+
+</menu>
